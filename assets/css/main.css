@@ -29,6 +29,36 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Header video */
+.header-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 0;
+	pointer-events: none;
+		
+}
+
+/* Hero section */
+#hero {
+    position: relative;
+    margin-top: 15px; /* Adjust to your navbar height */
+    overflow: hidden;
+}
+ 
+
 body {
 	line-height: 1;
 }
